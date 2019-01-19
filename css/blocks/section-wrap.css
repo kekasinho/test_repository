@@ -1,0 +1,33 @@
+.section-wrap {
+	position: relative;
+/*	margin-bottom: 50px;*/
+}
+
+.section-wrap .section-wrap__icon  a {
+	width: 27px;
+	height: 25px;
+	position: absolute;
+	left: 50%;
+	bottom: 8%;
+	transform: translate(-50%, -5px);
+	z-index: 2;
+	transition: all 0.15s ease-in;
+}
+
+.section-wrap .section-wrap__icon .section-wrap__img {
+	width: 27px;
+	height: 25px;
+	fill: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.15s ease-in;
+}
+
+/* .section-wrap .section-wrap__icon a:hover .section-wrap__img {
+	animation-name: rotate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	fill: black;
+} */

@@ -1,0 +1,57 @@
+.section-top {
+	background-color: white;
+}
+
+.section-top .section-top__header {
+	position: relative;
+	padding: 48px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section-top .section-top__menu {
+	flex-basis: 56.9%;
+	padding-left: 293px;
+}
+
+.section-top__logo p {
+	font-weight: 700;
+	font-size: 25px;
+	color: #212121;
+	text-transform: capitalize;
+}
+
+.section-top__info {
+	background-image: url('../../img/bg_header.png');
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding: 168px 0 188px;
+	text-align: center;
+}
+
+.section-top__info h1 {
+	font-size: 60px;
+	letter-spacing: 3px;
+	color: white;
+	line-height: 80px;
+	font-weight: 600;
+	margin-bottom: 22px;
+
+}
+
+.section-top__info p {
+	font-size: 22px;
+	line-height: 22px;
+	letter-spacing: 1.1px;
+	color: white;
+	margin-bottom: 110px;
+}
+
+.section-top__info .buttons {
+	display: flex;
+	justify-content: space-around;
+	width: 470px;
+	margin: 0 auto;
+}

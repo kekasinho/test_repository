@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import "reset.css";
+@import "fonts.css";
+@import "core.css";
+
+@import "blocks/section-wrap.css";
+@import "blocks/section-top.css";
+@import "menu.css";
+@import "btn.css";
+
+@import "blocks/about.css";
+
+@import "blocks/services.css";
+
+@import "blocks/works.css";
