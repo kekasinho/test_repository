@@ -27,21 +27,3 @@
 }
 
 
-/* @media (max-width: 768px) {
-	.menu ul li {
-		margin: 5px;
-	}
-	.menu ul li a {
-		padding-bottom: 0;
-		border-bottom: none;
-	}
-	.menu ul li a:hover {
-		border-bottom: none;
-	}
-}
-
-@media (max-width: 560px) {
-	.menu ul {
-		justify-content: center;
-	}
-} */

@@ -7,6 +7,7 @@
   <meta name="keywords" content=""/>
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <link rel="stylesheet" href="css/style.css" type="text/css"/>
+  <script src="js/script.js"></script>
 </head>
 <body>
 	<div id="top" class="container">
@@ -33,10 +34,10 @@
 							<div class="icons__search">
 								<form action="#" method="post">
 									<img src="img/search.png" alt="" class="icons__img">
-									<!-- <button type="submit">
+									<button type="submit">
 										<img src="img/search.png" alt="">
-									</button> -->
-									<!-- <input type="text" name="search" placeholder="Поиск..."> -->
+									</button>
+									<input type="text" name="search" placeholder="Поиск...">
 								</form>
 							</div>
 						</div>
@@ -45,18 +46,18 @@
 				<div class="section-top__info">
 					<h1>Web development project</h1>
 					<p>Very suitable to support all web development projects</p>
-					<div class="buttons">
+					<div class="buttons wrap">
 						<a href="#" class="btn">our services</a>
 						<a href="#" class="btn btn__trans">hire is now</a>
 					</div>
 				</div>
 			</div>
 			<div class="section-wrap__icon">
-      		<a href="#one">
-        		<svg class="section-wrap__img">
-          			<use xlink:href="#arrow__down"></use>
-        		</svg>
-      		</a>
+      			<a href="#one">
+        			<svg class="section-wrap__img">
+          				<use xlink:href="#arrow__down"></use>
+        			</svg>
+      			</a>
     		</div>
 		</div>
 		<div class="about wrap">
@@ -442,55 +443,56 @@
 			<div class="wrap contact__wrap">
 				<div class="contact__block">
 					<div class="contact__element">
-						<div class="contact__element--icon">
-							<a href="#">
-								<svg>
+						<a href="#" class="contact__element--icon">
+							<svg>
           							<use xlink:href="#location"></use>
-        						</svg>
-							</a>
-						</div>
+        					</svg>
+						</a>
 						<p class="contact__element--info">Nobinagar savar, Dhaka Bangladesh</p>
 					</div>
 					<div class="contact__element">
-						<div class="contact__element--icon">
-							<a href="#">
-								<svg>
+						<a href="#" class="contact__element--icon">
+							<svg>
           							<use xlink:href="#phone-call"></use>
-        						</svg>
-							</a>
-						</div>
+        					</svg>
+						</a>
 						<p class="contact__element--info">+8801743331996<br>+8801928737807</p>
 					</div>
 					<div class="contact__element">
-						<div class="contact__element--icon">
-							<a href="#">
-								<svg>
+						<a href="#" class="contact__element--icon">
+							<svg>
           							<use xlink:href="#mail"></use>
-        						</svg>
-							</a>
-						</div>
+        					</svg>
+						</a>
 						<p class="contact__element--info">quickmasud@gmail.com<br>quickmasud@yahoo.com</p>
 					</div>
 				</div>
-				<form action="#">
-					<div class="contact__input">
-						<input type="text" name="name" required>
-						<label>Your NAME</label>
-					</div>
-					<div class="contact__input">
-						<input type="text" name="email" required>
-						<label>Your Email</label>
-					</div>
-					<div class="contact__textarea">
-						<textarea name="text" required></textarea>
-						<label>Write Message</label>
-					</div>
-					<div class="contact__button">
-						<button class="">send</button>
-					</div>
-				</form>
+				<div class="contact__form">
+					<form action="#">
+						<div class="contact__input--block">
+							<div class="contact__input">
+								<input type="text" name="name" required>
+								<label>Your NAME</label>
+							</div>
+							<div class="contact__input">
+								<input type="text" name="email" required>
+								<label>Your Email</label>
+							</div>
+						</div>
+						<div class="contact__textarea">
+							<textarea name="text" required></textarea>
+							<label>Write Message</label>
+						</div>
+						<div class="contact__button">
+							<button class="">send</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
+		<footer class="page__footer">
+			<p>All rights Reserved &#8482; 2017</p>
+		</footer>
 	</div>
 
 
