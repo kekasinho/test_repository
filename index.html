@@ -7,6 +7,9 @@
   <meta name="keywords" content=""/>
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <link rel="stylesheet" href="css/style.css" type="text/css"/>
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
   <script src="js/script.js"></script>
 </head>
 <body>
@@ -19,11 +22,11 @@
 							<p class="header__logo">your logo</p>
 						</div>
 						<div class="section-top__menu menu">
-							<nav>
+							<nav id="menu">
 								<ul>
 									<li><a href="#top">home</a></li>
 									<li><a href="#about">about</a></li>
-									<li><a href="#servising">servicing</a></li>
+									<li><a href="#serviсing">servicing</a></li>
 									<li><a href="#portfolio">portfolio</a></li>
 									<li><a href="#blog">blog</a></li>
 									<li><a href="#contact">contact us</a></li>
@@ -53,14 +56,14 @@
 				</div>
 			</div>
 			<div class="section-wrap__icon">
-      			<a href="#one">
+      			<a href="#about">
         			<svg class="section-wrap__img">
           				<use xlink:href="#arrow__down"></use>
         			</svg>
       			</a>
     		</div>
 		</div>
-		<div class="about wrap">
+		<div class="about wrap" id="about">
 			<p class="about__title">About us</p>
 			<p class="about__title-info">Lorem Ipsum dolor sit amet, consectetur adipisicing elitm sed do elusmod tempor incididunt ut labore et dolore magna aliqua, Ut enim ad minim veniam.</p>
 			<div class="about__block">
@@ -93,7 +96,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="services">
+		<div class="services" id="serviсing">
 			<p class="services__title">our services</p>
 			<p class="services__info">Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 			<div class="services__block wrap">
@@ -147,7 +150,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="works">
+		<div class="works" id="portfolio">
 			<div class="works__title">latest works</div>
 			<div class="works__info">
 				Lorem Ipsum dolor sit amet, consectetur adipisicing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -254,7 +257,273 @@
 		<div class="team">
 			<p class="team__title">our team member</p>
 			<p class="team__info">Lorem Ipsum dolor sit amet, consectetur adipisicing elitm sed do elusmod tempor incididunt ut labore et dolore magna aliqua, Ut enim ad minim veniam.</p>
-			<div class="team__block wrap">
+			<div class="team__block wrap owl-carousel owl-theme">
+				<div class="team__element">
+					<a href="#">
+						<img src="img/butize.png" alt="butize">
+						<p class="team__element--name">Mr Butuze</p>
+						<p class="team__element--post">BOSS</p>
+					</a>
+					<div class="team__social--block">
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#facebook"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#twitter"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#chat"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#dribble"></use>
+        						</svg>
+							</a>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="team__element">
+					<a href="#">
+						<img src="img/john.png" alt="">
+						<p class="team__element--name">john doe</p>
+						<p class="team__element--post">general manager</p>
+					</a>
+					<div class="team__social--block">
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#facebook"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#twitter"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#chat"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#dribble"></use>
+        						</svg>
+							</a>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="team__element">
+					<a href="#">
+						<img src="img/roni.png" alt="">
+						<p class="team__element--name">Ronechka</p>
+						<p class="team__element--post">Little boss</p>
+					</a>
+					<div class="team__social--block">
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#facebook"></use>
+        				</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#twitter"></use>
+        				</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#chat"></use>
+        				</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#dribble"></use>
+        				</svg>
+							</a>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="team__element">
+					<a href="#">
+						<img src="img/ronobir.png" alt="">
+						<p class="team__element--name">john doe</p>
+						<p class="team__element--post">general manager</p>
+					</a>
+					<div class="team__social--block">
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#facebook"></use>
+        				</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#twitter"></use>
+        				</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#chat"></use>
+        				</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          				<use xlink:href="#dribble"></use>
+        				</svg>
+							</a>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="team__element">
+					<a href="#">
+						<img src="img/alexa.png" alt="">
+						<p class="team__element--name">John doe</p>
+						<p class="team__element--post">general manager</p>
+					</a>
+					<div class="team__social--block">
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#facebook"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#twitter"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#chat"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#dribble"></use>
+        						</svg>
+							</a>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="team__element">
+					<a href="#">
+						<img src="img/butize.png" alt="butize">
+						<p class="team__element--name">Mr Butuze</p>
+						<p class="team__element--post">BOSS</p>
+					</a>
+					<div class="team__social--block">
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#facebook"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#twitter"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#chat"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#dribble"></use>
+        						</svg>
+							</a>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="team__element">
+					<a href="#">
+						<img src="img/Roni.png" alt="butize">
+						<p class="team__element--name">Ronechka</p>
+						<p class="team__element--post">Little boss</p>
+					</a>
+					<div class="team__social--block">
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#facebook"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#twitter"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#chat"></use>
+        						</svg>
+							</a>
+						</div>
+						<div class="team__social--element">
+							<a href="#">
+								<svg class="team__social--img">
+          							<use xlink:href="#dribble"></use>
+        						</svg>
+							</a>
+						</div>
+					</div>
+					</a>
+				</div>
 				<div class="team__element">
 					<a href="#">
 						<img src="img/john.png" alt="">
@@ -331,47 +600,9 @@
 					</div>
 					</a>
 				</div>
-				<div class="team__element">
-					<a href="#">
-						<img src="img/ronobir.png" alt="">
-						<p class="team__element--name">john doe</p>
-						<p class="team__element--post">general manager</p>
-					</a>
-					<div class="team__social--block">
-						<div class="team__social--element">
-							<a href="#">
-								<svg class="team__social--img">
-          				<use xlink:href="#facebook"></use>
-        				</svg>
-							</a>
-						</div>
-						<div class="team__social--element">
-							<a href="#">
-								<svg class="team__social--img">
-          				<use xlink:href="#twitter"></use>
-        				</svg>
-							</a>
-						</div>
-						<div class="team__social--element">
-							<a href="#">
-								<svg class="team__social--img">
-          				<use xlink:href="#chat"></use>
-        				</svg>
-							</a>
-						</div>
-						<div class="team__social--element">
-							<a href="#">
-								<svg class="team__social--img">
-          				<use xlink:href="#dribble"></use>
-        				</svg>
-							</a>
-						</div>
-					</div>
-					</a>
-				</div>
 			</div>
 		</div>
-		<div class="blog">
+		<div class="blog" id="blog">
 			<div class="wrap blog__wrap">
 				<p class="blog__title">blog</p>
 				<p class="blog__info">Lorem Ipsum dolor sit amet, consectetur adipisicing elitm sed do elusmod tempor incididunt ut labore et dolore magna aliqua, Ut enim ad minim veniam.</p>
@@ -437,7 +668,7 @@
 				<a href="#" class="blog__button btn">more view</a>
 			</div>
 		</div>
-		<div class="contact">
+		<div class="contact" id="contact">
 			<p class="contact__title">contact us</p>
 			<p class="contact__info">Lorem Ipsum dolor sit amet, consectetur adipisicing elitm sed do elusmod tempor incididunt ut labore et dolore magna aliqua, Ut enim ad minim veniam.</p>
 			<div class="wrap contact__wrap">
