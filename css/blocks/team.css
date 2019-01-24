@@ -115,7 +115,7 @@
 	text-align: center;
 	padding: 0 0 15px 0;
 	margin: 112px auto;
-	outline: 1px solid red;
+	/*outline: 1px solid red;*/
 }
 
 .owl-carousel .owl-dots .owl-dot {
